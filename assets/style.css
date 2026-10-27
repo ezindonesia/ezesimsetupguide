@@ -4,8 +4,8 @@
   --navy:#002954; --navy-deep:#001b3a; --red:#DE2137; --red-d:#c21b2f;
   --mist:#EDF1F7; --line:#D8E0EC; --ink:#0d1b2e; --muted:#58687f; --ok:#18794e;
   --cjk:"Hiragino Sans","Yu Gothic","PingFang TC","Apple SD Gothic Neo","Malgun Gothic","Noto Sans CJK JP","Noto Sans CJK TC","Noto Sans CJK KR";
-  --display:"Bricolage Grotesque Variable",var(--cjk),system-ui,sans-serif;
-  --body:"Plus Jakarta Sans Variable",var(--cjk),system-ui,sans-serif;
+  --display:"Nunito Variable",var(--cjk),system-ui,sans-serif;
+  --body:"Nunito Variable",var(--cjk),system-ui,sans-serif;
   --tabbar:64px;
 }
 *{box-sizing:border-box}
@@ -231,3 +231,5 @@ body{padding-bottom:calc(var(--tabbar) + env(safe-area-inset-bottom))}
 .btn.wa{background:#128C4A;color:#fff;font-size:16px;padding:14px 28px;width:min(100%,360px);justify-content:center;box-shadow:0 8px 18px rgba(18,140,74,.28)}
 .btn.wa:hover{background:#0e7340}
 .navcta{flex-direction:column}.navcta .btn{justify-content:center}
+
+h1,h2,h3,.pbtn,.rowlink b,.done b{font-weight:800}
